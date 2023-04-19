@@ -1,0 +1,65 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background: rgb(165, 15, 15);
+    padding: 0 10px;
+}
+.navbar_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.navbar_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.nav_links {
+    text-decoration: none;
+    color:aliceblue;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.nav_links:hover {
+    border-bottom: 1px solid aliceblue;
+    color: white;
+   
+}
+.navbar_right_login {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.navbar_right_login__txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.navbar_right_login__btn {
+    align-items: center;
+    justify-content: center;
+}
+.navbar_right_login p {
+    font-size: 12px;
+}
+.navbar_right_login img {
+    border-radius: 50%;
+}
+.navbar_right_login button {
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+}
+.navbar_center img {
+    height: 70px;
+    border-radius: 5px;
+    cursor: pointer;
+}

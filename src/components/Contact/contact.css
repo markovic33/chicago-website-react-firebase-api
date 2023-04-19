@@ -1,0 +1,97 @@
+.contact__ {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(163, 102, 102);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 300px;
+}
+.contact__right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 450px;
+    gap: 5px;
+}
+.contact__right h1 {
+    margin-left: -70px;
+    margin-bottom: 20px;
+    color: white;
+    
+}
+.contact__info {
+    width: 550px;
+    height: 330px ;
+    border-radius: 5px;
+    margin-right: 150px;
+    margin-top: 100px;
+}
+.contact__info p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.contact__left{
+    width: 450px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.contact__left h1 {
+    margin-left: -70px;
+    margin-bottom: 20px;
+    color: white;
+}
+.contact__left img {
+    width: 450px;
+    border-radius: 5px;
+}
+.contact__left h2 {
+    top:500px;
+}
+.contact__left form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    font-size: 16px;
+}
+.contact__left input {
+    width: 100%;
+    height: 35px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+}
+.contact__left input:focus {
+    border: 2px solid rgba(0, 206, 158, 1);
+}
+.contact__left textarea {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    max-height: 100px;
+    min-height: 100px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+}
+.contact__left textarea:focus {
+    border: 2px solid rgba(0, 206, 158, 1);
+}
+.contact__left  label {
+    margin-top: 1rem;
+}
+.contact__left input[type="submit"] {
+    margin-top: 2rem;
+    cursor: pointer;
+    background: red;
+    color: white;
+    border: none;
+}
+.contact__left input[type="submit"]:hover {
+    background: green;
+}
+
+  

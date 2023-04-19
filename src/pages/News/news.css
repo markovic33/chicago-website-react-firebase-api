@@ -1,0 +1,20 @@
+.news__main__h1 {
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+.news__main {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    padding: 30px;
+}
+.news__main__item {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
